@@ -1,0 +1,4 @@
+certbot_apt_repository: ppa:certbot/certbot
+certbot_auto_renew_minute: 30
+certbot_auto_renew_hour: 3
+certbot_auto_renew_user: root #not recommended!
