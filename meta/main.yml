@@ -1,0 +1,14 @@
+galaxy_info:
+  author: Krzysztof Skarupa
+  company: SUNSCRAPERS
+  description: This role installs certbot and sets daily certificate auto-renewal as cron job
+  min_ansible_version: 1.9
+  license: MIT
+  platforms:
+  - name: Ubuntu
+    versions:
+      - Trusty
+    categories:
+      - System
+
+dependencies: []
