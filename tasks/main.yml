@@ -1,8 +1,7 @@
 - name: Certbot | Add Certbot Repository
-  apt-repository:
+  apt_repository:
     repo: "{{ certbot_apt_repository }}"
     state: present
-    when: certbot_apt_repository
 
 - name: Certbot | Install Certbot
   apt:
